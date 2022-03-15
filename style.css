@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    color: #C3E0E5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.title {
+    background-color: #274472;
+    text-transform:uppercase;
+    letter-spacing: .25rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+nav{
+    background-color: #5885AF;
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+nav img{
+    width: 2.5rem;
+    border-radius: 40%;
+    transition-duration: .2s;
+}
+
+nav img:hover{
+    transform: scale(120%);
+}
+
+.tickerList {
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+.ticker {
+    width: 18rem;
+    margin: 1rem;
+    border-radius: 10px;
+    /* background-color: #5885AF; */
+    /* box-shadow: 0px 1px 5px 1px white; */
+    transition-duration: .2s;
+    border: 1px solid #274472;
+    padding: 0px 0px 10px 0px;
+}
+.ticker:hover{
+    box-shadow: 0px 2px 10px 2px #C3E0E5;
+    transform: scale(110%);
+}
+
+.tickerRow1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    padding: 0;
+    background-color: #274472;
+    border-radius: 7px 7px 0px 0px;
+    padding-left: .5rem;
+    color: #C3E0E5;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.tickerRow2{
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 1rem 0rem 1rem 0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.span2 {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    vertical-align: text-bottom;
+    /* border: 1px solid #274472; */
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+    
+    box-shadow: 0px 1px 3px 1px black;
+    }
+    .spans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    span {
+        margin-right: 1rem;
+        padding: 0px 0px 5px 0px;
+        color: rgb(255, 154, 154);
+    }
+
+    
+
